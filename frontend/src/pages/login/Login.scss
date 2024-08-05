@@ -1,0 +1,18 @@
+.form_login {
+  width: 240px;
+  margin: 200px auto;
+  input {
+    border: 1px solid #ddd;
+    padding: 5px;
+    outline: none;
+  }
+  label {
+    color: #a19f9f;
+  }
+  button {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+}

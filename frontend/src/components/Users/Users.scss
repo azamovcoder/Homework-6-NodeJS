@@ -1,0 +1,28 @@
+.user__cards {
+  display: grid;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px 0;
+  &__card {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    &__img {
+      width: 100%;
+      img {
+        width: 100%;
+        object-fit: contain;
+        height: 200px;
+      }
+    }
+  }
+}
+.user__pagination {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
